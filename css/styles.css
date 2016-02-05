@@ -1,0 +1,484 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	/* background: #15384C; */
+	background-image: url("../images/body_background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Gudea', sans-serif;
+	/* font-family:Helvetica, Arial, sans-serif; */
+	font-size: 15px;
+	color: #545454;
+
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+h1.center {
+	text-align: center;
+}
+
+h2 {
+	padding: 0px 0px 20px 0px;
+	font-size: 1.50em;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 180%;
+}
+
+strong {
+	color: #2C2C2C;
+}
+
+a {
+	color: #2C2C2C;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+img.border {
+}
+
+img.alignLeft{
+	float: left;
+}
+
+img.alignRight, p.alignRight {
+	float: right;
+}
+
+img.alignCentre {
+	margin: 0px auto;
+}
+
+hr {
+	display: none;
+}
+
+/** TABLES */
+
+table {
+	text-align: center;
+	border-spacing: 40px 5px;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+/** container */
+
+#container {
+	overflow: hidden;
+	width: 1200px;
+	margin: 50px auto;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0,.2);
+}
+
+.clearfix {
+	clear: both;
+}
+
+/** HEADER */
+
+header {
+	overflow: hidden;
+	height: 150px;
+	/* background: #CF4A41; */
+	background-image: url("../images/header_banner.jpg");
+	/*background-repeat: no-repeat;*/
+	/*background-attachment: fixed;*/
+	background-size: 960px 540px;
+	background-position: 0% 15%;
+}
+
+/* Logo */
+
+#logo{
+	float: left;
+	width: 590px;
+	padding: 60px 0px 0px 50px;
+	text-transform: uppercase;
+}
+#logo h1{
+	text-decoration: none;
+	font-size: 2.4em;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+#logo h1 a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#logo p{
+	display: block;
+	margin-top: -10px;
+	padding: 0px 0px 0px 0px;
+	letter-spacing: 1px;
+	font-size: 1.2em;
+	color: #FFFFFF;
+}
+
+#logo p a{
+	color: #FFFFFF;
+}
+
+#logo div{
+	color:#ffffff;	
+}
+
+/* Menu */
+
+menu{
+	float: right;
+	width: 500px;
+	padding: 60px 50px 0px 0px;
+}
+
+menu ul{
+	float: right;
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+menu li{
+	float: left;
+}
+
+menu a{
+	display: block;
+	margin-left: 1px;
+	padding: 7px 0px 7px 30px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+
+menu a:hover, menu .currentPage a{
+	text-decoration: underline;
+}
+
+/** PAGE */
+
+#page {
+	overflow: hidden;
+	width: 1100px;
+	margin: 0px 50px;
+	padding: 20px 0px;
+	border-bottom: 1px solid #DEDEDE;
+}
+
+#page h2 {
+}
+
+img.left {
+    float: left;
+}
+
+/** CONTENT */
+
+#content {
+	float: left;
+	width: 750px;
+}
+
+#content h2 {
+	font-size: 2.10em;
+}
+
+
+/** SIDEBAR */
+
+.sidebar {
+	float: left;
+	width: 300px;
+	margin-left:40px;
+}
+
+/* Footer */
+
+footer {
+	overflow: hidden;
+	margin: 0px 50px;
+	padding: 30px 0px;
+	border-top: 5px solid #000000;
+}
+
+footer p {
+	text-align: center;
+}
+
+footer a {
+	color: #545454;
+}
+
+/* Three Column */
+
+.three-column-line1 {
+	overflow: hidden;
+	margin: 0px 60px;
+	padding: 20px 0px;
+	text-decoration: none;
+}
+
+.three-column-line2 {
+	overflow: hidden;
+	margin: 0px 50px;
+	padding: 0px 0px;
+}
+
+.three-column-line1 .box {
+	float: left;
+	width: 320px;
+	height: 380px;
+	margin-right: 40px;
+}
+	
+.three-column-line2 .box {
+	float: left;
+	width: 320px;
+	margin-right:40px;
+}
+
+/* News Grid */
+
+.news-grid {
+	overflow: hidden;
+	margin: 0px 60px;
+	padding: 20px 0px;
+	text-decoration: none;
+}
+.news-grid .box {
+	float: top;
+	width: 800px;
+	height: 380px;
+	padding-bottom: 100px;
+	margin-right: 40px;
+}
+
+/* List Style 1 */
+
+ul.style1 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.style1 li {
+	padding: 10px 0px 15px 0px;
+	border-top: 1px solid #DEDEDE;
+}
+
+ul.style1 a {
+	text-decoration: none;
+	color: #545454;
+}
+
+ul.style1 a:hover {
+	text-decoration: underline;
+}
+
+ul.style1 .first {
+	padding-top: 0px;
+	border-top: none;
+}
+
+
+/* List style 2 */
+
+ul.style2 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.style2 li {
+	padding: 25px 0px 15px 0px;
+	border-top: 1px solid #DEDEDE;
+}
+
+ul.style2 .first {
+	padding-top: 0px;
+	border-top: none;
+}
+
+ul.style2 h3 {
+	padding: 0px 0px 10px 0px;
+}
+
+ul.style2 h3 a {
+	text-transform: none;
+	color: #373737;
+}
+
+ul.style2 a {
+	text-decoration: none;
+	color: #919191;
+}
+
+ul.style2 a:hover {
+	text-decoration: underline;
+}
+
+/* Top Left Button Style */
+
+.button-style {
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 20px;
+	padding: 7px 20px;
+	background: #CF4A41;
+	border-radius: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	float: left;
+}
+
+/* Top Right Button Style */
+
+.button-topright {
+	display: inline-block;
+	margin-top: 5px;
+	margin-right: 20px;
+	padding: 7px 20px;
+	background: #278fae;
+	border-radius: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	float: right;
+}
+
+/* Table View Button Style */
+
+.button-tableview {
+	display: inline-block;
+	margin-top: 5px;
+	margin-right: 5px;
+	padding: 7px 15px;
+	background: #5fb64c;
+	border-radius: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	float: right;
+}
+
+/* Table Edit Button Style */
+
+.button-tableedit {
+	display: inline-block;
+	margin-top: 5px;
+	margin-right: 5px;
+	padding: 7px 15px;
+	background: #c5d016;
+	border-radius: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	float: right;
+}
+
+/* Table Delete Button Style */
+
+.button-tabledelete {
+	display: inline-block;
+	margin-top: 5px;
+	margin-right: 5px;
+	padding: 7px 15px;
+	background: #CF4A41;
+	border-radius: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	float: right;
+}
+
+/* View Page Edit Button Style */
+
+.button-viewedit {
+	display: inline-block;
+	margin-top: -10px;
+	margin-right: 10px;
+	padding: 7px 20px;
+	background: #c5d016;
+	border-radius: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	float: right;
+}
+
+/* View Page Delete Button Style */
+
+.button-viewdelete {
+	display: inline-block;
+	margin-top: -10px;
+	margin-right: 20px;
+	padding: 7px 20px;
+	background: #CF4A41;
+	border-radius: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	float: right;
+}
+
+/* Edit Page 'Edit Games' Button Style */
+
+.button-editedit {
+	display: inline-block;
+	margin-top: 5px;
+	margin-right: 5px;
+	padding: 0px 15px;
+	background: #c5d016;
+	border-radius: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+/* Indent Classes and Input Focus Colours for Edit Pages */
+
+.indent label, span.indent{
+	display:block;
+	width:150px;
+	float:left;
+}
+
+.indent-right{
+	display:block;
+	width:-150px;
+	float:right;
+	float:top;
+}
+
+.indent input:focus{
+	background-color:#CFC;
+}
